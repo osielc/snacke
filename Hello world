@@ -1,0 +1,15 @@
+#The “Hello, World” program is the first program you learn
+#to write in many languages, but it doesn’t involve any input.
+#So create a program that prompts for your name and prints
+#a greeting using your name.
+#contraint.
+#Keep the input, string concatenation, and output separate.
+
+
+def name():
+    fname= input("what is your first name?")
+    sname= input("what is your second name?")
+    print(" hello," + " " + fname + " " + sname + " its nice to meet you! ")
+
+
+name()
